@@ -7,6 +7,7 @@
   flex-direction: column;
   background-color: rgb(125, 156, 156);
   font-family: "Lucida Sans";
+  margin: 20px;
 }
 
 .deskContainer {
@@ -30,7 +31,7 @@
 }
 
 .image {
-  width: auto;
+  width: 318px;
   height: auto;
   display: inline-block;
   vertical-align: middle;
@@ -44,12 +45,21 @@
   vertical-align: middle;
 }
 
-h1 {
-  text-align: center;
+h2 {
+  text-align: left;
+  font-size: 24px;
+  margin-left: 10px;
 }
 
 p {
   text-align: left;
   padding-left: 10px;
   color: rgb(216, 215, 215);
+  font-size: 16px;
+}
+
+.author {
+  text-align: right;
+  color: rgb(216, 215, 215);
+  font-weight: bold;
 }
