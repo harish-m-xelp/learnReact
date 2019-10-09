@@ -1,15 +1,12 @@
 import React from "react";
 import "./App.css";
+import Newscard from "../src/components/newsCard";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hey Taj I did this!!!</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+      <h1>Todays's Hot News!!!</h1>
+      <Newscard />
     </div>
   );
 }
